@@ -1,5 +1,73 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #cccccc; /* Slight color change on hover */
+  }
+  
+  /* Main and Aside Layout */
+  main {
+    display: flex;
+  }
+  
+  .main-content {
+    background-color: #2e2e2e; /* Dark Gray */
+    color: white;
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .aside-content {
+    background-color: #d3d3d3; /* Light Gray */
+    color: black;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366; /* Same Dark Blue as Header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
