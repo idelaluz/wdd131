@@ -1,4 +1,4 @@
-/* General Reset */
+/* Web Page CSS Layout */
 * {
     margin: 0;
     padding: 0;
@@ -7,24 +7,34 @@
   
   body {
     font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "footer";
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
   }
   
   /* Header */
   header {
-    background-color: #003366; /* Dark Blue */
+    background-color: #003366;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    grid-area: header;
   }
   
   /* Navigation */
   nav {
     background-color: black;
+    grid-area: nav;
   }
   
   nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
   }
   
@@ -41,33 +51,36 @@
   }
   
   nav a:hover {
-    color: #cccccc; /* Slight color change on hover */
+    color: orangered;
   }
   
-  /* Main and Aside Layout */
+  /* Main and Aside using CSS Grid inside <main> */
   main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-area: main;
   }
   
+  /* Main Content */
   .main-content {
-    background-color: #2e2e2e; /* Dark Gray */
+    background-color: #2e2e2e;
     color: white;
-    flex: 3;
     padding: 20px;
   }
   
+  /* Aside Content */
   .aside-content {
-    background-color: #d3d3d3; /* Light Gray */
+    background-color: #d3d3d3;
     color: black;
-    flex: 1;
     padding: 20px;
   }
   
   /* Footer */
   footer {
-    background-color: #003366; /* Same Dark Blue as Header */
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 20px;
+    grid-area: footer;
   }
   
