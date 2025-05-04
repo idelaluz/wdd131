@@ -26,7 +26,7 @@
     grid-area: header;
   }
   
-  /* Navigation */
+  /* Navigation Bar */
   nav {
     background-color: black;
     grid-area: nav;
