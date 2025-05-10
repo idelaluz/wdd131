@@ -27,6 +27,7 @@
     color: white;
     padding: 20px;
     text-align: center;
+    font-size: 0.8em;
   }
   
   /* Navigation inside header */
@@ -64,18 +65,19 @@
   }
   
   /* Main Content */
-  .main-content {
-    background-color: #2e2e2e;
-    color: white;
+  .card {
+    background-color: white;
+    
+    color: black;
     padding: 20px;
   }
   
   /* Aside Content */
-  .aside-content {
+/*  .aside-content {
     background-color: #d3d3d3;
     color: black;
     padding: 20px;
-  }
+  } */
   
   /* Footer */
   footer {
