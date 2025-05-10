@@ -6,7 +6,8 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     display: grid;
     grid-template-areas:
       "header"
@@ -30,6 +31,12 @@
     font-size: 0.8em;
   }
   
+.highlight-name {
+    color: orangered;
+    font-weight: bold;
+  }
+
+
   /* Navigation inside header */
   nav {
     background-color: black;
@@ -96,6 +103,7 @@
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 50px;
+  padding-bottom: 10px;
   font-size: 0.9em;
 }
 
