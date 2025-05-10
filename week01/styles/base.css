@@ -77,6 +77,38 @@
     margin: 15px;
   }
   
+.section-title {
+    
+    background-color: #003366;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: -20px -20px 20px -20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+  }
+
+.card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.card-content img {
+  max-width: 200px;
+  height: auto;
+  
+}
+
+.divider {
+  border: none;
+  height: 2px; 
+  width: 600px;
+  background-color: orangered;
+  margin: 10px 0;
+}
+
   /* Aside Content */
 /*  .aside-content {
     background-color: #d3d3d3;
