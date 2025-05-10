@@ -140,7 +140,9 @@
   max-width: 200px;
   height: auto;  
   padding-top: 10px;
-}
+  display: block;
+} 
+
 .card-content-two p {
   max-width: 400px;
   text-align: justify;
@@ -151,6 +153,22 @@
   font-size: 0.9em;
   flex: 1;
 }
+
+.flag {
+  order: -1;
+  margin: 0;
+  width: fit-content;  
+}
+
+.flag figcaption {
+  background-color: black;
+  color: white;
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 5px;
+  text-align: center;
+}
+
 
 .resource-list {
   padding-left: 20px;
