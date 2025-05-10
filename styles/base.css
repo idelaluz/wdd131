@@ -104,6 +104,13 @@
   height: auto;  
 }
 
+.city-country {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
 .divider {
   border: none;
   height: 2px; 
