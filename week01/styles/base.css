@@ -89,16 +89,19 @@
     color: white;
   }
 
-.card-content {
+.card-content-one {
   display: flex;
   align-items: flex-start;
   gap: 60px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 50px;
+  font-size: 0.9em;
 }
 
-.card-content img {
+.card-content-one img {
   max-width: 200px;
-  height: auto;
-  
+  height: auto;  
 }
 
 .divider {
@@ -108,6 +111,34 @@
   background-color: orangered;
   margin: 10px 0;
 }
+
+.card-content-two {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+.card-content-two img {
+  order: -1;
+  max-width: 200px;
+  height: auto;  
+  padding-top: 10px;
+}
+.card-content-two p {
+  max-width: 400px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: -5px;
+  padding-right: 80px;
+  margin: 0;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+
+
 
   /* Aside Content */
 /*  .aside-content {
