@@ -1,13 +1,12 @@
-// Get the current year:
+// Get the current year and last modified date:
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 
-  const lastModified = new Date(document.lastModified);
-  const formattedDate = lastModified.toLocaleDateString('en-US', {
+const lastModified = new Date(document.lastModified);
+const formattedDate = lastModified.toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric'
-  });
+});
 
-// Get the last modified date:
 document.getElementById("lastModified").textContent = formattedDate;
