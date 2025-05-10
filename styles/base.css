@@ -144,15 +144,13 @@
   flex: 1;
 }
 
+.resource-list {
+  padding-left: 20px;
+  list-style-type: disc;
+}
 
 
 
-  /* Aside Content */
-/*  .aside-content {
-    background-color: #d3d3d3;
-    color: black;
-    padding: 20px;
-  } */
   
   /* Footer */
   footer {
