@@ -9,7 +9,6 @@ body {
     background-color: white;
 }
 
-/* Header and navigation */
 header {
   display: flex;
   justify-content: space-between;
@@ -71,7 +70,6 @@ nav a:hover {
   background-color: orangered; 
 }
 
-/* Main layout */
 main {
   padding: 1rem;
   text-align: center;

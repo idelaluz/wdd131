@@ -1,4 +1,3 @@
-/* Styles for screen widths 768px and up */
 #menu-button {
   display: none;
 }
@@ -24,7 +23,6 @@ nav a {
   padding: 0.5rem 1rem;
 }
 
-/* Grid layout for images */
 .gallery {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
