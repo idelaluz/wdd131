@@ -1,8 +1,12 @@
-/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: white;
 }
 
 /* Header and navigation */
@@ -10,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(to right, #003366, black);
   color: white;
   padding: 1rem;
   position: relative;
@@ -35,7 +39,7 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: black;
+  background-color: #003366;
   width: 100%;
   z-index: 10;
 }
@@ -53,7 +57,7 @@ nav ul {
 }
 
 nav li {
-  border-top: 1px solid #444;
+  border-top: 1px solid #444; 
 }
 
 nav a {
@@ -64,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: orangered; 
 }
 
 /* Main layout */
@@ -74,12 +78,11 @@ main {
 }
 
 .wayfinder {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
-  font-weight: bold;
 }
 
-/* Gallery layout */
+
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -102,10 +105,12 @@ figcaption {
   margin-top: 0.5rem;
 }
 
-/* Footer */
+
 footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-}
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-area: footer;
+  }
+  
