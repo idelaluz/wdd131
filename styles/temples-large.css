@@ -1,0 +1,29 @@
+/* Large screen layout and enhancements */
+#menu-button {
+  display: none;
+}
+
+nav {
+  display: block !important;
+  position: static;
+  background-color: transparent;
+  width: auto;
+}
+
+nav ul {
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+nav li {
+  border-top: none;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+}
+
+.gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
