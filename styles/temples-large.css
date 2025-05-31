@@ -1,4 +1,4 @@
-/* Large screen layout and enhancements */
+/* Styles for screen widths 768px and up */
 #menu-button {
   display: none;
 }
@@ -12,8 +12,8 @@ nav {
 
 nav ul {
   flex-direction: row;
-  gap: 1rem;
   justify-content: flex-end;
+  gap: 1rem;
 }
 
 nav li {
@@ -24,6 +24,9 @@ nav a {
   padding: 0.5rem 1rem;
 }
 
+/* Grid layout for images */
 .gallery {
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
 }
